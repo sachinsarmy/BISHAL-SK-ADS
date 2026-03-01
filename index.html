@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SYVOX Raja Sureshot </title>
+
+
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2460936574337634');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2460936574337634&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+  
+<style>
+:root{
+  --panel:#071e1d;
+  --teal1:#0ef2d5;
+  --teal2:#13f2ff;
+  --btn-text:#001818;
+  --muted:rgba(255,255,255,0.75);
+  --label-red:#ff2f5a;
+}
+
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(180deg,#061214,#081617,#071013);
+  color:#fff;
+  overflow-x:hidden;
+}
+
+/* CENTER WRAPPER */
+.center-wrap{
+  display:flex;
+  justify-content:center;
+  padding:40px 0;
+}
+
+/* MAIN CARD */
+.wrap{
+  max-width:400px;
+  width:80%;
+  background:var(--panel);
+  border-radius:20px;
+  padding:22px 20px 30px;
+  text-align:center;
+  position:relative;
+
+  box-shadow:
+    0 0 0 1px rgba(14,242,213,0.35),
+    0 0 20px rgba(14,242,213,0.25),
+    0 0 40px rgba(19,242,255,0.15),
+    0 25px 45px rgba(0,0,0,0.7);
+
+  animation: edgeGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes edgeGlow{
+  from{
+    box-shadow:
+      0 0 0 1px rgba(67, 242, 14, 0.25),
+      0 0 16px rgba(14, 242, 37, 0.18),
+      0 0 32px rgba(19,242,255,0.1),
+      0 25px 45px rgba(0,0,0,0.7);
+  }
+  to{
+    box-shadow:
+      0 0 0 1px rgba(14, 242, 41, 0.45),
+      0 0 28px rgba(14,242,213,0.35),
+      0 0 55px rgba(19,242,255,0.22),
+      0 25px 45px rgba(0,0,0,0.7);
+  }
+}
+
+.marquee{
+  background:linear-gradient(90deg,var(--teal1),var(--teal2));
+  color:var(--btn-text);
+  font-weight:900;
+  padding:10px 0;
+  border-radius:12px;
+  margin-bottom:12px;
+  font-size:15px;
+  letter-spacing:1px;
+}
+
+.profile-box{
+  width:180px;
+  height:180px;
+  margin:12px auto 18px;
+  border-radius:18px;
+  overflow:hidden;
+  border:4px solid rgba(14,242,213,0.25);
+}
+.profile-box img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+h1{
+  font-size:28px;
+  margin:6px 0;
+  font-weight:800;
+}
+.subtitle{
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:18px;
+}
+
+.pill{
+  display:block;
+  width:100%;
+  padding:18px 0;
+  margin:14px 0;
+  border-radius:50px;
+  background:linear-gradient(90deg,var(--teal1),var(--teal2));
+  color:var(--btn-text);
+  font-weight:900;
+  font-size:18px;
+  text-decoration:none;
+  letter-spacing:1px;
+}
+.pill-sub{
+  font-size:12px;
+  color:var(--muted);
+}
+
+.hurry{
+  color:var(--teal1);
+  font-weight:800;
+  margin-top:6px;
+}
+
+.timer{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin:16px 0 20px;
+}
+.cell{
+  background:rgba(1,40,38,0.6);
+  padding:12px 16px;
+  border-radius:10px;
+  width:70px;
+}
+.num{
+  font-size:28px;
+  font-weight:800;
+}
+.lab{
+  font-size:12px;
+  color:var(--label-red);
+  margin-top:4px;
+  font-weight:700;
+}
+
+.features{margin-bottom:18px;}
+.feature-item{
+  margin:6px 0;
+  font-weight:700;
+  color:var(--muted);
+}
+
+.divider{
+  height:1px;
+  background:rgba(255,255,255,0.05);
+  margin:20px auto;
+}
+
+.exp h2{font-size:20px;}
+.big{
+  color:var(--teal1);
+  font-weight:800;
+}
+.mini{
+  font-size:12px;
+  opacity:0.6;
+  letter-spacing:2px;
+}
+
+/* CONTACT SECTION */
+.contact-section{
+  text-align:center;
+  padding:30px 20px;
+  background:#071e1d;
+  max-width:400px;
+  margin:30px auto 50px;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(14,242,213,0.2);
+}
+
+.contact-btn{
+  background:linear-gradient(90deg,#0ef2d5,#13f2ff);
+  color:#001818;
+  padding:10px 18px;
+  text-decoration:none;
+  border-radius:30px;
+  font-weight:800;
+  font-size:14px;
+  display:inline-block;
+}
+
+</style>
+
+<script>
+let m=30,s=0;
+setInterval(()=>{
+  document.getElementById("min").innerText=String(m).padStart(2,'0');
+  document.getElementById("sec").innerText=String(s).padStart(2,'0');
+  if(s===0){ if(m===0)return; m--; s=59; } else s--;
+},1000);
+</script>
+</head>
+
+<body>
+
+<div class="center-wrap">
+  <div class="wrap">
+
+    <div class="marquee">
+      <marquee scrollamount="4">🔥 FREE VIP SURESHOT • LIMITED TIME • JOIN FAST 🔥</marquee>
+    </div>
+
+    <div class="profile-box">
+      <img src="MILLIONARE.jpeg">
+    </div>
+
+    <h1>𝐒𝐘𝐕𝐎𝐗 𝐕𝐈𝐏 𝐒𝐔𝐑𝐄𝐒𝐇𝐎𝐓 🌪</h1>
+    <div class="subtitle">JOIN FAST FOR FREE SURESHOT VIP HACKS</div>
+
+    <a class="pill" href="https://t.me/+OZx7HgciJMc2YTJl" >JOIN HACK CHANNEL</a>
+    <div class="pill-sub">FREE VIP HACKS</div>
+
+    <div class="hurry">HURRY UP! JOIN NOW</div>
+
+    <div class="timer">
+      <div class="cell"><div class="num" id="min">30</div><div class="lab">MIN</div></div>
+      <div class="cell"><div class="num" id="sec">00</div><div class="lab">SEC</div></div>
+    </div>
+
+    <div class="features">
+      <div class="feature-item">⭐ 100% WINNING SURESHOT</div>
+      <div class="feature-item">⭐ 100% LOSS RECOVERY</div>
+      <div class="feature-item">⭐ MONTHLY INCOME 30K–50K</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="exp">
+      <h2>5+ YEARS EXPERIENCE</h2>
+      <div class="big">10 LAKH+ WINNING</div>
+      <div class="mini">NUMBER KING</div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
